@@ -713,13 +713,12 @@ window.Quarto = {
 
 
 <p>In earlier lessons, you learned how to multiply and divide fractions. But many real-world problems, like combining ingredients, measuring distance, or tracking time, require <strong>adding and subtracting</strong> fractions instead.</p>
-<p>In this lesson, you’ll learn how to add and subtract fractions and mixed numbers. You will see what a common denominator is, how to find the smallest one, and a faster way to get one that works every time.</p>
+<p>In this lesson, you’ll learn how to add and subtract fractions and mixed numbers. You will see what a common denominator is and how to find one.</p>
 <div class="objectives">
 <ul class="task-list">
 <li><label><input type="checkbox">I can add and subtract fractions with like denominators.</label></li>
 <li><label><input type="checkbox">I can add and subtract fractions with unlike denominators.</label></li>
 <li><label><input type="checkbox">I can add and subtract mixed numbers.</label></li>
-<li><label><input type="checkbox">I can subtract a larger fraction from a smaller one and get a negative answer.</label></li>
 </ul>
 </div>
 <div class="vocab">
@@ -771,30 +770,43 @@ window.Quarto = {
 <li>Keep the denominator.</li>
 <li><strong>Combine</strong> the numerators.</li>
 </ul>
-<p>Why “combine” and not “add or subtract”? Because in 1.1 you learned that subtracting is the same as adding the opposite, <span class="math inline">\(a - b = a + (-b)\)</span>. There is really only one operation here.</p>
-<p><strong>Example 1:</strong> <span class="math inline">\(\frac{2}{7} + \frac{3}{7}\)</span> <span class="math display">\[
+<p>Why “combine” and not “add or subtract”? Because in 1.1 you learned that subtracting is the same as adding the opposite. There is really only one operation here.</p>
+<p><strong>Example 1:</strong> <span class="math inline">\(\frac{2}{7} + \frac{3}{7}\)</span></p>
+<p>Keep the denominator and combine the numerators: <span class="math display">\[
 \begin{aligned}
-\frac{2}{7} + \frac{3}{7} &amp;= \frac{2 + 3}{7} \stepnote{combine the numerators} \\
+\frac{2}{7} + \frac{3}{7} &amp;= \frac{2 + 3}{7} \\
 &amp;= \frac{5}{7}
 \end{aligned}
 \]</span></p>
 <div class="gotcha" title="Numerators only">
 <p>A common mistake is to combine the numerators <strong>and</strong> the denominators. <strong>Only combine the numerators!</strong></p>
 </div>
-<p><strong>Example 2:</strong> <span class="math inline">\(\frac{11}{12} - \frac{5}{12}\)</span> <span class="math display">\[
+<p><strong>Example 2:</strong> <span class="math inline">\(\frac{11}{12} - \frac{5}{12}\)</span></p>
+<p>Combine, then simplify. The GCF of <span class="math inline">\(6\)</span> and <span class="math inline">\(12\)</span> is <span class="math inline">\(6\)</span>: <span class="math display">\[
 \begin{aligned}
 \frac{11}{12} - \frac{5}{12} &amp;= \frac{6}{12} \\
 &amp;= \frac{1}{2}
 \end{aligned}
 \]</span></p>
-<p><strong>Example 3:</strong> <span class="math inline">\(\frac{5}{9} + \frac{7}{9}\)</span> <span class="math display">\[
+<p>Always check whether you can simplify.</p>
+<p><strong>Example 3:</strong> <span class="math inline">\(\frac{5}{9} + \frac{7}{9}\)</span></p>
+<p>Combine, simplify, then write it as a mixed number: <span class="math display">\[
 \begin{aligned}
 \frac{5}{9} + \frac{7}{9} &amp;= \frac{12}{9} \\
-&amp;= \frac{4}{3} \stepnote{simplify, GCF 3} \\
+&amp;= \frac{4}{3} \\
 &amp;= 1\tfrac{1}{3}
 \end{aligned}
 \]</span></p>
-<p>Bigger than 1? No problem.</p>
+<p>Bigger than 1? No problem. Simplify it, then write it as a mixed number if you like.</p>
+<p><strong>Example 4:</strong> <span class="math inline">\(\frac{3}{8} - \frac{7}{8}\)</span></p>
+<p>The first fraction is smaller than the second, so the answer is negative. Nothing else changes. <span class="math display">\[
+\begin{aligned}
+\frac{3}{8} - \frac{7}{8} &amp;= \frac{3 - 7}{8} \\
+&amp;= \frac{-4}{8} \\
+&amp;= -\frac{1}{2}
+\end{aligned}
+\]</span></p>
+<p><span class="math inline">\(-\frac{5}{12}\)</span> and <span class="math inline">\(\frac{-5}{12}\)</span> are the same number. Write the sign in front.</p>
 <div class="you-try" title="$\frac{10}{15} - \frac{4}{15}$">
 <p><span class="math display">\[
 \begin{aligned}
@@ -817,9 +829,7 @@ window.Quarto = {
 <img src="../../images/Unit_1/Lesson_5/cheese_pizza_3of4.svg" class="img-fluid"></p>
 </div>
 </div>
-<p>One slice each, but the slices are <strong>not the same size</strong>. We cannot add them yet.</p>
-<section id="make-the-pieces-match" class="level4">
-<h4 class="anchored" data-anchor-id="make-the-pieces-match">Make the Pieces Match</h4>
+<p>One slice each, but the slices are <strong>not the same size</strong>. We cannot combine them yet.</p>
 <p>Cut every third into 4. Cut every fourth into 3. Now both pizzas are in <strong>twelfths</strong>.</p>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -828,193 +838,132 @@ window.Quarto = {
 <p><img src="../../images/Unit_1/Lesson_5/cheese_pizza_9of12.svg" class="img-fluid"></p>
 </div>
 </div>
-<p><span class="math display">\[
-\frac{4}{12} + \frac{3}{12} = \frac{7}{12}
-\]</span></p>
-<p>Jack ate <span class="math inline">\(\frac{7}{12}\)</span> of a pizza.</p>
-<hr>
-</section>
-<section id="where-did-12-come-from" class="level4">
-<h4 class="anchored" data-anchor-id="where-did-12-come-from">Where Did 12 Come From?</h4>
 <p><span class="math inline">\(12\)</span> is a <a href="../../glossary.html#glossary-common-denominator" class="glossary-link" data-slug="common-denominator" data-term="common denominator" data-original-href="#glossary-common-denominator">common denominator</a>. Both <span class="math inline">\(3\)</span> and <span class="math inline">\(4\)</span> divide into it evenly.</p>
-<p>You can find one by listing multiples until both lists show the same number.</p>
+<div class="remember" title="Finding a common denominator">
+<p>List the multiples of each denominator. Take the first number both lists show.</p>
 <p>Multiples of <span class="math inline">\(3\)</span>: <span class="math inline">\(3, 6, 9, \mathbf{12}, 15, \dots\)</span><br>
 Multiples of <span class="math inline">\(4\)</span>: <span class="math inline">\(4, 8, \mathbf{12}, 16, \dots\)</span></p>
-<p><span class="math inline">\(12\)</span> is the first one they share, so it is the <strong>smallest</strong> common denominator.</p>
-<p>Listing works every time, but it is slow. Try it on <span class="math inline">\(\frac{1}{7} + \frac{1}{8}\)</span>.</p>
-<p>Multiples of <span class="math inline">\(7\)</span>: <span class="math inline">\(7, 14, 21, 28, 35, 42, 49, \mathbf{56}\)</span><br>
-Multiples of <span class="math inline">\(8\)</span>: <span class="math inline">\(8, 16, 24, 32, 40, 48, \mathbf{56}\)</span></p>
-<p>That is fifteen numbers to find <span class="math inline">\(56\)</span>. So here is the shortcut:</p>
-<div class="remember" title="Multiply the two denominators">
-<p><span class="math display">\[
-7 \times 8 = 56
-\]</span></p>
-<p>One step instead of fifteen numbers. It works on the pizza too: <span class="math inline">\(3 \times 4 = 12\)</span>.</p>
-<ul>
-<li>Multiply the top and bottom of the first fraction by the <strong>second</strong> denominator.</li>
-<li>Multiply the top and bottom of the second fraction by the <strong>first</strong> denominator.</li>
-<li>Simplify at the end.</li>
-</ul>
-<p>It always works. Multiply any two numbers and the answer is a multiple of each one.</p>
-<p>This is less work to find the denominator. Sometimes it means more simplifying at the end.</p>
+<p>Then divide to find what each fraction gets multiplied by. <span class="math inline">\(12 \div 3 = 4\)</span>, so the thirds get multiplied by <span class="math inline">\(\frac{4}{4}\)</span>. <span class="math inline">\(12 \div 4 = 3\)</span>, so the fourths get multiplied by <span class="math inline">\(\frac{3}{3}\)</span>.</p>
 </div>
-<p><strong>Example 4:</strong> <span class="math inline">\(\frac{1}{3} + \frac{1}{4}\)</span> <span class="math display">\[
+<p><strong>Example 5:</strong> <span class="math inline">\(\frac{1}{3} + \frac{1}{4}\)</span></p>
+<p>The common denominator is <span class="math inline">\(12\)</span>. Multiply the thirds by <span class="math inline">\(\frac{4}{4}\)</span> and the fourths by <span class="math inline">\(\frac{3}{3}\)</span>: <span class="math display">\[
 \begin{aligned}
 \frac{1}{3} + \frac{1}{4}
-&amp;= \frac{1}{3}\times\frac{\color{red}4}{\color{red}4} + \frac{1}{4}\times\frac{\color{red}3}{\color{red}3} \stepnote{get a common denominator} \\
+&amp;= \frac{1}{3}\times\frac{\color{red}4}{\color{red}4} + \frac{1}{4}\times\frac{\color{red}3}{\color{red}3} \\
 &amp;= \frac{4}{12} + \frac{3}{12} \\
 &amp;= \frac{7}{12}
 \end{aligned}
 \]</span></p>
+<p>Jack ate <span class="math inline">\(\frac{7}{12}\)</span> of a pizza.</p>
 <div class="gotcha" title="Top and bottom">
 <p><span class="math inline">\(\frac{4}{4} = 1\)</span>, so multiplying by it does not change the value. Multiply the <strong>bottom</strong> only and you have changed the fraction into a different number.</p>
 </div>
-<p><strong>Example 5:</strong> <span class="math inline">\(\frac{3}{4} - \frac{2}{5}\)</span> <span class="math display">\[
+<p><strong>Example 6:</strong> <span class="math inline">\(\frac{7}{8} - \frac{1}{4}\)</span></p>
+<p>Multiples of <span class="math inline">\(8\)</span>: <span class="math inline">\(\mathbf{8}, 16, \dots\)</span> Multiples of <span class="math inline">\(4\)</span>: <span class="math inline">\(4, \mathbf{8}, \dots\)</span></p>
+<p>When one denominator already divides into the other, the larger one is the common denominator. <span class="math display">\[
+\begin{aligned}
+\frac{7}{8} - \frac{1}{4}
+&amp;= \frac{7}{8} - \frac{1}{4}\times\frac{\color{red}2}{\color{red}2} \\
+&amp;= \frac{7}{8} - \frac{2}{8} \\
+&amp;= \frac{5}{8}
+\end{aligned}
+\]</span></p>
+<p><strong>Example 7:</strong> <span class="math inline">\(\frac{3}{4} - \frac{2}{5}\)</span></p>
+<p>Multiples of <span class="math inline">\(4\)</span>: <span class="math inline">\(4, 8, 12, 16, \mathbf{20}\)</span>. Multiples of <span class="math inline">\(5\)</span>: <span class="math inline">\(5, 10, 15, \mathbf{20}\)</span>.</p>
+<p>So the common denominator is <span class="math inline">\(20\)</span>: <span class="math display">\[
 \begin{aligned}
 \frac{3}{4} - \frac{2}{5}
-&amp;= \frac{3}{4}\times\frac{\color{red}5}{\color{red}5} - \frac{2}{5}\times\frac{\color{red}4}{\color{red}4} \stepnote{get a common denominator} \\
+&amp;= \frac{3}{4}\times\frac{\color{red}5}{\color{red}5} - \frac{2}{5}\times\frac{\color{red}4}{\color{red}4} \\
 &amp;= \frac{15}{20} - \frac{8}{20} \\
 &amp;= \frac{7}{20}
 \end{aligned}
 \]</span></p>
-<div class="you-try" title="Add $\frac{2}{3} + \frac{1}{6}$">
-<p><span class="math display">\[
-\begin{aligned}
-\frac{2}{3} + \frac{1}{6}
-&amp;= \frac{2}{3}\times\frac{\color{red}6}{\color{red}6} + \frac{1}{6}\times\frac{\color{red}3}{\color{red}3} \stepnote{get a common denominator} \\
-&amp;= \frac{12}{18} + \frac{3}{18} \\
-&amp;= \frac{15}{18} \\
-&amp;= \frac{5}{6}
-\end{aligned}
-\]</span></p>
-</div>
-<p><strong>Example 6:</strong> <span class="math inline">\(\frac{7}{8} - \frac{1}{4}\)</span> <span class="math display">\[
-\begin{aligned}
-\frac{7}{8} - \frac{1}{4}
-&amp;= \frac{7}{8}\times\frac{\color{red}4}{\color{red}4} - \frac{1}{4}\times\frac{\color{red}8}{\color{red}8} \stepnote{get a common denominator} \\
-&amp;= \frac{28}{32} - \frac{8}{32} \\
-&amp;= \frac{20}{32} \\
-&amp;= \frac{5}{8}
-\end{aligned}
-\]</span></p>
-<p>Listing multiples would have given <span class="math inline">\(8\)</span> instead, because <span class="math inline">\(8\)</span> is already a multiple of <span class="math inline">\(4\)</span>: <span class="math display">\[
-\begin{aligned}
-\frac{7}{8} - \frac{1}{4}
-&amp;= \frac{7}{8} - \frac{2}{8} \stepnote{get a common denominator} \\
-&amp;= \frac{5}{8}
-\end{aligned}
-\]</span></p>
-<p>Same answer. Multiplying gave bigger numbers, so there was more to simplify at the end.</p>
-<div class="think" title="When do the two ways agree?">
-<p>In Example 4, <span class="math inline">\(3 \times 4 = 12\)</span> and <span class="math inline">\(12\)</span> was also the smallest. In Example 6, <span class="math inline">\(8 \times 4 = 32\)</span> but the smallest was <span class="math inline">\(8\)</span>.</p>
-<p>What is different about <span class="math inline">\(3\)</span> and <span class="math inline">\(4\)</span> compared to <span class="math inline">\(8\)</span> and <span class="math inline">\(4\)</span>?</p>
-<p><strong>Answer:</strong> <span class="math inline">\(3\)</span> and <span class="math inline">\(4\)</span> share no common factor. <span class="math inline">\(8\)</span> and <span class="math inline">\(4\)</span> share a factor of <span class="math inline">\(4\)</span>.</p>
-</div>
-<p><strong>Example 7:</strong> <span class="math inline">\(\frac{5}{6} + \frac{7}{9}\)</span></p>
-<p>Neither denominator divides into the other, so there is nothing obvious to spot. Multiply them anyway. <span class="math display">\[
+<p><strong>Example 8:</strong> <span class="math inline">\(\frac{5}{6} + \frac{7}{9}\)</span></p>
+<p>Neither denominator divides into the other, so list until they share a number.</p>
+<p>Multiples of <span class="math inline">\(6\)</span>: <span class="math inline">\(6, 12, \mathbf{18}\)</span>. Multiples of <span class="math inline">\(9\)</span>: <span class="math inline">\(9, \mathbf{18}\)</span>.</p>
+<p>So the common denominator is <span class="math inline">\(18\)</span>: <span class="math display">\[
 \begin{aligned}
 \frac{5}{6} + \frac{7}{9}
-&amp;= \frac{5}{6}\times\frac{\color{red}9}{\color{red}9} + \frac{7}{9}\times\frac{\color{red}6}{\color{red}6} \stepnote{get a common denominator} \\
-&amp;= \frac{45}{54} + \frac{42}{54} \\
-&amp;= \frac{87}{54} \\
-&amp;= \frac{29}{18} \stepnote{simplify, GCF 3} \\
+&amp;= \frac{5}{6}\times\frac{\color{red}3}{\color{red}3} + \frac{7}{9}\times\frac{\color{red}2}{\color{red}2} \\
+&amp;= \frac{15}{18} + \frac{14}{18} \\
+&amp;= \frac{29}{18} \\
 &amp;= 1\tfrac{11}{18}
 \end{aligned}
 \]</span></p>
-<p><strong>Example 8:</strong> <span class="math inline">\(\frac{5}{12} + \frac{3}{8}\)</span> <span class="math display">\[
-\begin{aligned}
-\frac{5}{12} + \frac{3}{8}
-&amp;= \frac{5}{12}\times\frac{\color{red}8}{\color{red}8} + \frac{3}{8}\times\frac{\color{red}12}{\color{red}12} \stepnote{get a common denominator} \\
-&amp;= \frac{40}{96} + \frac{36}{96} \\
-&amp;= \frac{76}{96} \\
-&amp;= \frac{19}{24}
-\end{aligned}
-\]</span></p>
-<div class="you-try" title="Subtract $\frac{7}{10} - \frac{4}{15}$">
-<p><span class="math display">\[
-\begin{aligned}
-\frac{7}{10} - \frac{4}{15}
-&amp;= \frac{7}{10}\times\frac{\color{red}15}{\color{red}15} - \frac{4}{15}\times\frac{\color{red}10}{\color{red}10} \stepnote{get a common denominator} \\
-&amp;= \frac{105}{150} - \frac{40}{150} \\
-&amp;= \frac{65}{150} \\
-&amp;= \frac{13}{30}
-\end{aligned}
-\]</span></p>
-</div>
-<hr>
-</section>
-<section id="when-the-answer-is-negative" class="level4">
-<h4 class="anchored" data-anchor-id="when-the-answer-is-negative">When the Answer Is Negative</h4>
-<p>First fraction smaller than the second? No problem. The answer just comes out negative. Everything else is the same.</p>
-<p><strong>Example 9:</strong> <span class="math inline">\(\frac{3}{8} - \frac{7}{8}\)</span> <span class="math display">\[
-\begin{aligned}
-\frac{3}{8} - \frac{7}{8}
-&amp;= \frac{3 - 7}{8} \\
-&amp;= \frac{-4}{8} \\
-&amp;= -\frac{1}{2}
-\end{aligned}
-\]</span></p>
-<p><strong>Example 10:</strong> <span class="math inline">\(\frac{1}{4} - \frac{2}{3}\)</span> <span class="math display">\[
+<p><strong>Example 9:</strong> <span class="math inline">\(\frac{1}{4} - \frac{2}{3}\)</span></p>
+<p>The common denominator is <span class="math inline">\(12\)</span>, the same as Example 5. Here the first numerator is smaller, so the answer is negative. <span class="math display">\[
 \begin{aligned}
 \frac{1}{4} - \frac{2}{3}
-&amp;= \frac{1}{4}\times\frac{\color{red}3}{\color{red}3} - \frac{2}{3}\times\frac{\color{red}4}{\color{red}4} \stepnote{get a common denominator} \\
+&amp;= \frac{1}{4}\times\frac{\color{red}3}{\color{red}3} - \frac{2}{3}\times\frac{\color{red}4}{\color{red}4} \\
 &amp;= \frac{3}{12} - \frac{8}{12} \\
 &amp;= -\frac{5}{12}
 \end{aligned}
 \]</span></p>
-<div class="remember" title="Where the sign goes">
-<p><span class="math inline">\(-\frac{5}{12}\)</span> and <span class="math inline">\(\frac{-5}{12}\)</span> are the same number. Write the sign in front.</p>
-<p><span class="math inline">\(-2\tfrac{7}{9}\)</span> means the whole number <strong>and</strong> the fraction are negative.</p>
+<div class="you-try" title="Add $\frac{2}{3} + \frac{1}{6}$">
+<p><span class="math inline">\(6\)</span> is already a multiple of <span class="math inline">\(3\)</span>, so the common denominator is <span class="math inline">\(6\)</span>. <span class="math display">\[
+\begin{aligned}
+\frac{2}{3} + \frac{1}{6}
+&amp;= \frac{2}{3}\times\frac{\color{red}2}{\color{red}2} + \frac{1}{6} \\
+&amp;= \frac{4}{6} + \frac{1}{6} \\
+&amp;= \frac{5}{6}
+\end{aligned}
+\]</span></p>
 </div>
 <div class="you-try" title="Subtract $\frac{2}{5} - \frac{3}{4}$">
-<p><span class="math display">\[
+<p>Multiples of <span class="math inline">\(5\)</span>: <span class="math inline">\(5, 10, 15, \mathbf{20}\)</span>. Multiples of <span class="math inline">\(4\)</span>: <span class="math inline">\(4, 8, 12, 16, \mathbf{20}\)</span>. <span class="math display">\[
 \begin{aligned}
 \frac{2}{5} - \frac{3}{4}
-&amp;= \frac{2}{5}\times\frac{\color{red}4}{\color{red}4} - \frac{3}{4}\times\frac{\color{red}5}{\color{red}5} \stepnote{get a common denominator} \\
+&amp;= \frac{2}{5}\times\frac{\color{red}4}{\color{red}4} - \frac{3}{4}\times\frac{\color{red}5}{\color{red}5} \\
 &amp;= \frac{8}{20} - \frac{15}{20} \\
 &amp;= -\frac{7}{20}
 \end{aligned}
 \]</span></p>
 </div>
+<div class="note" title="A shortcut, if you want it">
+<p>You can skip the listing and just <strong>multiply the two denominators</strong>. It always works, because multiplying any two numbers gives a multiple of each one.</p>
+<p>For <span class="math inline">\(\frac{5}{6} + \frac{7}{9}\)</span> that gives <span class="math inline">\(6 \times 9 = 54\)</span> instead of <span class="math inline">\(18\)</span>: <span class="math display">\[
+\frac{45}{54} + \frac{42}{54} = \frac{87}{54} = \frac{29}{18}
+\]</span></p>
+<p>Same answer. It is less work to find the denominator. Sometimes it means more simplifying at the end.</p>
+</div>
 <hr>
-</section>
 </section>
 <section id="adding-subtracting-mixed-numbers" class="level3">
 <h3 class="anchored" data-anchor-id="adding-subtracting-mixed-numbers">1.5.3 - Adding &amp; Subtracting Mixed Numbers</h3>
 <p>A <a href="../../glossary.html#glossary-mixed-number" class="glossary-link" data-slug="mixed-number" data-term="mixed number" data-original-href="#glossary-mixed-number">mixed number</a> has a whole number and a fraction, like <span class="math inline">\(2\tfrac{1}{3}\)</span>.</p>
-<p>Why not add the whole numbers and then the fractions? Try it on <span class="math inline">\(6\tfrac{1}{4} - 3\tfrac{3}{8}\)</span>. You cannot take <span class="math inline">\(\frac{3}{8}\)</span> from <span class="math inline">\(\frac{1}{4}\)</span>, so you have to borrow from the <span class="math inline">\(6\)</span>.</p>
+<p>Why not combine the whole numbers and then the fractions? Try it on <span class="math inline">\(6\tfrac{1}{4} - 3\tfrac{3}{8}\)</span>. You cannot take <span class="math inline">\(\frac{3}{8}\)</span> from <span class="math inline">\(\frac{1}{4}\)</span>, so you have to borrow from the <span class="math inline">\(6\)</span>.</p>
 <p>Turn them into <a href="../../glossary.html#glossary-improper-fraction" class="glossary-link" data-slug="improper-fraction" data-term="improper fraction" data-original-href="#glossary-improper-fraction">improper fraction</a>s first instead. Then there is no borrowing.</p>
 <p>To convert <span class="math inline">\(a\tfrac{b}{c}\)</span>, multiply <span class="math inline">\(a \times c\)</span>, add <span class="math inline">\(b\)</span>, and keep the denominator <span class="math inline">\(c\)</span>: <span class="math display">\[
 2\tfrac{1}{3} = \frac{2 \times 3 + 1}{3} = \frac{7}{3}
 \]</span></p>
-<p><strong>Example 11:</strong> <span class="math inline">\(2\tfrac{1}{3} + 1\tfrac{5}{6}\)</span> <span class="math display">\[
+<p><strong>Example 10:</strong> <span class="math inline">\(2\tfrac{1}{3} + 1\tfrac{5}{6}\)</span></p>
+<p>Convert to improper fractions, then use the common denominator <span class="math inline">\(6\)</span>: <span class="math display">\[
 \begin{aligned}
 2\tfrac{1}{3} + 1\tfrac{5}{6}
-&amp;= \frac{7}{3} + \frac{11}{6} \stepnote{improper fractions} \\
-&amp;= \frac{7}{3}\times\frac{\color{red}6}{\color{red}6} + \frac{11}{6}\times\frac{\color{red}3}{\color{red}3} \stepnote{get a common denominator} \\
-&amp;= \frac{42}{18} + \frac{33}{18} \\
-&amp;= \frac{75}{18} \\
-&amp;= \frac{25}{6} \stepnote{simplify, GCF 3} \\
+&amp;= \frac{7}{3} + \frac{11}{6} \\
+&amp;= \frac{7}{3}\times\frac{\color{red}2}{\color{red}2} + \frac{11}{6} \\
+&amp;= \frac{14}{6} + \frac{11}{6} \\
+&amp;= \frac{25}{6} \\
 &amp;= 4\tfrac{1}{6}
 \end{aligned}
 \]</span></p>
-<p><strong>Example 12:</strong> <span class="math inline">\(4\tfrac{1}{2} - 2\tfrac{3}{4}\)</span> <span class="math display">\[
+<p><strong>Example 11:</strong> <span class="math inline">\(4\tfrac{1}{2} - 2\tfrac{3}{4}\)</span></p>
+<p>Convert to improper fractions, then use the common denominator <span class="math inline">\(4\)</span>: <span class="math display">\[
 \begin{aligned}
 4\tfrac{1}{2} - 2\tfrac{3}{4}
-&amp;= \frac{9}{2} - \frac{11}{4} \stepnote{improper fractions} \\
-&amp;= \frac{9}{2}\times\frac{\color{red}4}{\color{red}4} - \frac{11}{4}\times\frac{\color{red}2}{\color{red}2} \stepnote{get a common denominator} \\
-&amp;= \frac{36}{8} - \frac{22}{8} \\
-&amp;= \frac{14}{8} \\
-&amp;= \frac{7}{4} \stepnote{simplify, GCF 2} \\
+&amp;= \frac{9}{2} - \frac{11}{4} \\
+&amp;= \frac{9}{2}\times\frac{\color{red}2}{\color{red}2} - \frac{11}{4} \\
+&amp;= \frac{18}{4} - \frac{11}{4} \\
+&amp;= \frac{7}{4} \\
 &amp;= 1\tfrac{3}{4}
 \end{aligned}
 \]</span></p>
-<p><strong>Example 13:</strong> <span class="math inline">\(8 - 3\tfrac{4}{7}\)</span></p>
+<p><strong>Example 12:</strong> <span class="math inline">\(8 - 3\tfrac{4}{7}\)</span></p>
 <p>No denominator? No problem. Put a 1 underneath. <span class="math display">\[
 \begin{aligned}
 8 - 3\tfrac{4}{7}
-&amp;= \frac{8}{\color{red}1} - \frac{25}{7} \stepnote{improper fractions} \\
-&amp;= \frac{8}{1}\times\frac{\color{red}7}{\color{red}7} - \frac{25}{7} \stepnote{get a common denominator} \\
+&amp;= \frac{8}{\color{red}1} - \frac{25}{7} \\
+&amp;= \frac{8}{1}\times\frac{\color{red}7}{\color{red}7} - \frac{25}{7} \\
 &amp;= \frac{56}{7} - \frac{25}{7} \\
 &amp;= \frac{31}{7} \\
 &amp;= 4\tfrac{3}{7}
@@ -1024,8 +973,8 @@ Multiples of <span class="math inline">\(8\)</span>: <span class="math inline">\
 <p><span class="math display">\[
 \begin{aligned}
 5\tfrac{1}{2} - 2\tfrac{3}{5}
-&amp;= \frac{11}{2} - \frac{13}{5} \stepnote{improper fractions} \\
-&amp;= \frac{55}{10} - \frac{26}{10} \stepnote{get a common denominator} \\
+&amp;= \frac{11}{2} - \frac{13}{5} \\
+&amp;= \frac{55}{10} - \frac{26}{10} \\
 &amp;= \frac{29}{10} \\
 &amp;= 2\tfrac{9}{10}
 \end{aligned}
