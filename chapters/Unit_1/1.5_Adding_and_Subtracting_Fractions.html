@@ -772,22 +772,34 @@ window.Quarto = {
 <li>Add or subtract the numerators.</li>
 </ul>
 <p><strong>Example 1:</strong> <span class="math inline">\(\frac{2}{7} + \frac{3}{7}\)</span> <span class="math display">\[
-\frac{2}{7} + \frac{3}{7} = \frac{2 + 3}{7} = \frac{5}{7}
+\begin{aligned}
+\frac{2}{7} + \frac{3}{7} &amp;= \frac{2 + 3}{7} \stepnote{add the numerators} \\
+&amp;= \frac{5}{7}
+\end{aligned}
 \]</span></p>
 <div class="gotcha" title="Numerators only">
 <p>A common mistake is to add the numerators <strong>and</strong> the denominators. <strong>Only add the numerators!</strong></p>
 </div>
 <p><strong>Example 2:</strong> <span class="math inline">\(\frac{11}{12} - \frac{5}{12}\)</span> <span class="math display">\[
-\frac{11}{12} - \frac{5}{12} = \frac{6}{12} = \frac{1}{2}
+\begin{aligned}
+\frac{11}{12} - \frac{5}{12} &amp;= \frac{6}{12} \stepnote{subtract the numerators} \\
+&amp;= \frac{1}{2} \stepnote{simplify, GCF 6}
+\end{aligned}
 \]</span></p>
-<p>Always check whether you can simplify.</p>
 <p><strong>Example 3:</strong> <span class="math inline">\(\frac{5}{9} + \frac{7}{9}\)</span> <span class="math display">\[
-\frac{5}{9} + \frac{7}{9} = \frac{12}{9} = \frac{4}{3} = 1\tfrac{1}{3}
+\begin{aligned}
+\frac{5}{9} + \frac{7}{9} &amp;= \frac{12}{9} \stepnote{add the numerators} \\
+&amp;= \frac{4}{3} \stepnote{simplify, GCF 3} \\
+&amp;= 1\tfrac{1}{3} \stepnote{write as a mixed number}
+\end{aligned}
 \]</span></p>
-<p>Bigger than 1? No problem. Simplify it, then write it as a mixed number if you like.</p>
+<p>Bigger than 1? No problem.</p>
 <div class="you-try" title="$\frac{10}{15} - \frac{4}{15}$">
 <p><span class="math display">\[
-\frac{10}{15} - \frac{4}{15} = \frac{6}{15} = \frac{2}{5}
+\begin{aligned}
+\frac{10}{15} - \frac{4}{15} &amp;= \frac{6}{15} \stepnote{subtract the numerators} \\
+&amp;= \frac{2}{5} \stepnote{simplify, GCF 3}
+\end{aligned}
 \]</span></p>
 </div>
 <hr>
@@ -840,53 +852,55 @@ Multiples of <span class="math inline">\(4\)</span>: <span class="math inline">\
 </ul>
 <p>It always works, because <span class="math inline">\(3 \times 4\)</span> is a multiple of <span class="math inline">\(3\)</span> <strong>and</strong> a multiple of <span class="math inline">\(4\)</span>.</p>
 </div>
-<p><strong>Example 4:</strong> <span class="math inline">\(\frac{1}{3} + \frac{1}{4}\)</span></p>
-<p>Multiply the denominators to get a common denominator: <span class="math display">\[
-3 \times 4 = 12
-\]</span></p>
-<p>Now rewrite both fractions as twelfths. The first one gets multiplied by the <strong>other</strong> denominator, <span class="math inline">\(4\)</span>: <span class="math display">\[
-\frac{1}{3} \times \frac{\color{red}4}{\color{red}4} = \frac{4}{12}
-\]</span></p>
-<p>The second one gets multiplied by <span class="math inline">\(3\)</span>: <span class="math display">\[
-\frac{1}{4} \times \frac{\color{red}3}{\color{red}3} = \frac{3}{12}
-\]</span></p>
-<p>The pieces match now, so add the numerators: <span class="math display">\[
-\frac{4}{12} + \frac{3}{12} = \frac{7}{12}
+<p><strong>Example 4:</strong> <span class="math inline">\(\frac{1}{3} + \frac{1}{4}\)</span> <span class="math display">\[
+\begin{aligned}
+\frac{1}{3} + \frac{1}{4}
+&amp;= \frac{1}{3}\times\frac{\color{red}4}{\color{red}4} + \frac{1}{4}\times\frac{\color{red}3}{\color{red}3} \stepnote{$3 \times 4 = 12$} \\
+&amp;= \frac{4}{12} + \frac{3}{12} \stepnote{the pieces match now} \\
+&amp;= \frac{7}{12} \stepnote{add the numerators}
+\end{aligned}
 \]</span></p>
 <div class="gotcha" title="Top and bottom">
 <p><span class="math inline">\(\frac{4}{4} = 1\)</span>, so multiplying by it does not change the value. Multiply the <strong>bottom</strong> only and you have changed the fraction into a different number.</p>
 </div>
-<p><strong>Example 5:</strong> <span class="math inline">\(\frac{3}{4} - \frac{2}{5}\)</span></p>
-<p>Multiply the denominators: <span class="math display">\[
-4 \times 5 = 20
-\]</span></p>
-<p>Rewrite both fractions as twentieths: <span class="math display">\[
-\frac{3}{4} \times \frac{\color{red}5}{\color{red}5} = \frac{15}{20}
-\qquad\qquad
-\frac{2}{5} \times \frac{\color{red}4}{\color{red}4} = \frac{8}{20}
-\]</span></p>
-<p>Subtract the numerators: <span class="math display">\[
-\frac{15}{20} - \frac{8}{20} = \frac{7}{20}
+<p><strong>Example 5:</strong> <span class="math inline">\(\frac{3}{4} - \frac{2}{5}\)</span> <span class="math display">\[
+\begin{aligned}
+\frac{3}{4} - \frac{2}{5}
+&amp;= \frac{3}{4}\times\frac{\color{red}5}{\color{red}5} - \frac{2}{5}\times\frac{\color{red}4}{\color{red}4} \stepnote{$4 \times 5 = 20$} \\
+&amp;= \frac{15}{20} - \frac{8}{20} \\
+&amp;= \frac{7}{20} \stepnote{subtract the numerators}
+\end{aligned}
 \]</span></p>
 <div class="you-try" title="Add $\frac{2}{3} + \frac{1}{6}$">
-<p>Multiply the denominators: <span class="math inline">\(3 \times 6 = 18\)</span>.</p>
-<p>Rewrite, add, then simplify: <span class="math display">\[
-\frac{12}{18} + \frac{3}{18} = \frac{15}{18} = \frac{5}{6}
+<p><span class="math display">\[
+\begin{aligned}
+\frac{2}{3} + \frac{1}{6}
+&amp;= \frac{2}{3}\times\frac{\color{red}6}{\color{red}6} + \frac{1}{6}\times\frac{\color{red}3}{\color{red}3} \stepnote{$3 \times 6 = 18$} \\
+&amp;= \frac{12}{18} + \frac{3}{18} \\
+&amp;= \frac{15}{18} \stepnote{add the numerators} \\
+&amp;= \frac{5}{6} \stepnote{simplify, GCF 3}
+\end{aligned}
 \]</span></p>
 </div>
 <hr>
 </section>
 <section id="the-trade" class="level4">
 <h4 class="anchored" data-anchor-id="the-trade">The Trade</h4>
-<p><strong>Example 6:</strong> <span class="math inline">\(\frac{7}{8} - \frac{1}{4}\)</span></p>
-<p>Multiply the denominators: <span class="math display">\[
-8 \times 4 = 32
+<p><strong>Example 6:</strong> <span class="math inline">\(\frac{7}{8} - \frac{1}{4}\)</span> <span class="math display">\[
+\begin{aligned}
+\frac{7}{8} - \frac{1}{4}
+&amp;= \frac{7}{8}\times\frac{\color{red}4}{\color{red}4} - \frac{1}{4}\times\frac{\color{red}8}{\color{red}8} \stepnote{$8 \times 4 = 32$} \\
+&amp;= \frac{28}{32} - \frac{8}{32} \\
+&amp;= \frac{20}{32} \stepnote{subtract the numerators} \\
+&amp;= \frac{5}{8} \stepnote{simplify, GCF 4}
+\end{aligned}
 \]</span></p>
-<p>Rewrite, subtract, then simplify. The GCF of <span class="math inline">\(20\)</span> and <span class="math inline">\(32\)</span> is <span class="math inline">\(4\)</span>: <span class="math display">\[
-\frac{28}{32} - \frac{8}{32} = \frac{20}{32} = \frac{5}{8}
-\]</span></p>
-<p>Listing multiples would have given <span class="math inline">\(8\)</span>, and <span class="math inline">\(8\)</span> is smaller: <span class="math display">\[
-\frac{7}{8} - \frac{2}{8} = \frac{5}{8}
+<p>Listing multiples would have given <span class="math inline">\(8\)</span> instead, because <span class="math inline">\(8\)</span> is already a multiple of <span class="math inline">\(4\)</span>: <span class="math display">\[
+\begin{aligned}
+\frac{7}{8} - \frac{1}{4}
+&amp;= \frac{7}{8} - \frac{2}{8} \stepnote{common denominator 8} \\
+&amp;= \frac{5}{8}
+\end{aligned}
 \]</span></p>
 <p>Same answer. Multiplying gave bigger numbers, so there was more to simplify at the end. <strong>That is the trade: no thinking at the start, a little simplifying at the end.</strong></p>
 <div class="think" title="When do the two ways agree?">
@@ -895,29 +909,34 @@ Multiples of <span class="math inline">\(4\)</span>: <span class="math inline">\
 <p><strong>Answer:</strong> <span class="math inline">\(3\)</span> and <span class="math inline">\(4\)</span> share no common factor. <span class="math inline">\(8\)</span> and <span class="math inline">\(4\)</span> share a factor of <span class="math inline">\(4\)</span>.</p>
 </div>
 <p><strong>Example 7:</strong> <span class="math inline">\(\frac{5}{6} + \frac{7}{9}\)</span></p>
-<p>Neither denominator divides into the other, so there is nothing obvious to spot. Multiply them anyway: <span class="math display">\[
-6 \times 9 = 54
+<p>Neither denominator divides into the other, so there is nothing obvious to spot. Multiply them anyway. <span class="math display">\[
+\begin{aligned}
+\frac{5}{6} + \frac{7}{9}
+&amp;= \frac{5}{6}\times\frac{\color{red}9}{\color{red}9} + \frac{7}{9}\times\frac{\color{red}6}{\color{red}6} \stepnote{$6 \times 9 = 54$} \\
+&amp;= \frac{45}{54} + \frac{42}{54} \\
+&amp;= \frac{87}{54} \stepnote{add the numerators} \\
+&amp;= \frac{29}{18} \stepnote{simplify, GCF 3} \\
+&amp;= 1\tfrac{11}{18} \stepnote{write as a mixed number}
+\end{aligned}
 \]</span></p>
-<p>Rewrite and add: <span class="math display">\[
-\frac{45}{54} + \frac{42}{54} = \frac{87}{54}
-\]</span></p>
-<p>Both are divisible by <span class="math inline">\(3\)</span>. Simplify, then write it as a mixed number: <span class="math display">\[
-\frac{87}{54} = \frac{29}{18} = 1\tfrac{11}{18}
-\]</span></p>
-<p><strong>Example 8:</strong> <span class="math inline">\(\frac{5}{12} + \frac{3}{8}\)</span></p>
-<p>Multiply the denominators: <span class="math display">\[
-12 \times 8 = 96
-\]</span></p>
-<p>Rewrite and add: <span class="math display">\[
-\frac{40}{96} + \frac{36}{96} = \frac{76}{96}
-\]</span></p>
-<p>Simplify. The GCF of <span class="math inline">\(76\)</span> and <span class="math inline">\(96\)</span> is <span class="math inline">\(4\)</span>: <span class="math display">\[
-\frac{76}{96} = \frac{19}{24}
+<p><strong>Example 8:</strong> <span class="math inline">\(\frac{5}{12} + \frac{3}{8}\)</span> <span class="math display">\[
+\begin{aligned}
+\frac{5}{12} + \frac{3}{8}
+&amp;= \frac{5}{12}\times\frac{\color{red}8}{\color{red}8} + \frac{3}{8}\times\frac{\color{red}12}{\color{red}12} \stepnote{$12 \times 8 = 96$} \\
+&amp;= \frac{40}{96} + \frac{36}{96} \\
+&amp;= \frac{76}{96} \stepnote{add the numerators} \\
+&amp;= \frac{19}{24} \stepnote{simplify, GCF 4}
+\end{aligned}
 \]</span></p>
 <div class="you-try" title="Subtract $\frac{7}{10} - \frac{4}{15}$">
-<p>Multiply the denominators: <span class="math inline">\(10 \times 15 = 150\)</span>.</p>
-<p>Rewrite, subtract, then simplify: <span class="math display">\[
-\frac{105}{150} - \frac{40}{150} = \frac{65}{150} = \frac{13}{30}
+<p><span class="math display">\[
+\begin{aligned}
+\frac{7}{10} - \frac{4}{15}
+&amp;= \frac{7}{10}\times\frac{\color{red}15}{\color{red}15} - \frac{4}{15}\times\frac{\color{red}10}{\color{red}10} \stepnote{$10 \times 15 = 150$} \\
+&amp;= \frac{105}{150} - \frac{40}{150} \\
+&amp;= \frac{65}{150} \stepnote{subtract the numerators} \\
+&amp;= \frac{13}{30} \stepnote{simplify, GCF 5}
+\end{aligned}
 \]</span></p>
 </div>
 <hr>
@@ -925,28 +944,34 @@ Multiples of <span class="math inline">\(4\)</span>: <span class="math inline">\
 <section id="when-the-answer-is-negative" class="level4">
 <h4 class="anchored" data-anchor-id="when-the-answer-is-negative">When the Answer Is Negative</h4>
 <p>First fraction smaller than the second? No problem. The answer just comes out negative. Everything else is the same.</p>
-<p><strong>Example 9:</strong> <span class="math inline">\(\frac{3}{8} - \frac{7}{8}\)</span></p>
-<p>Denominators already match, so subtract the numerators: <span class="math inline">\(3 - 7 = -4\)</span>. <span class="math display">\[
-\frac{3}{8} - \frac{7}{8} = \frac{-4}{8} = -\frac{1}{2}
+<p><strong>Example 9:</strong> <span class="math inline">\(\frac{3}{8} - \frac{7}{8}\)</span> <span class="math display">\[
+\begin{aligned}
+\frac{3}{8} - \frac{7}{8}
+&amp;= \frac{3 - 7}{8} \stepnote{subtract the numerators} \\
+&amp;= \frac{-4}{8} \stepnote{$3 - 7 = -4$} \\
+&amp;= -\frac{1}{2} \stepnote{simplify, GCF 4}
+\end{aligned}
 \]</span></p>
-<p><strong>Example 10:</strong> <span class="math inline">\(\frac{1}{4} - \frac{2}{3}\)</span></p>
-<p>Multiply the denominators: <span class="math display">\[
-4 \times 3 = 12
-\]</span></p>
-<p>Rewrite as twelfths, then subtract the numerators. Here <span class="math inline">\(3\)</span> is smaller than <span class="math inline">\(8\)</span>: <span class="math display">\[
-3 - 8 = -5
-\]</span></p>
-<p><span class="math display">\[
-\frac{3}{12} - \frac{8}{12} = -\frac{5}{12}
+<p><strong>Example 10:</strong> <span class="math inline">\(\frac{1}{4} - \frac{2}{3}\)</span> <span class="math display">\[
+\begin{aligned}
+\frac{1}{4} - \frac{2}{3}
+&amp;= \frac{1}{4}\times\frac{\color{red}3}{\color{red}3} - \frac{2}{3}\times\frac{\color{red}4}{\color{red}4} \stepnote{$4 \times 3 = 12$} \\
+&amp;= \frac{3}{12} - \frac{8}{12} \\
+&amp;= -\frac{5}{12} \stepnote{$3 - 8 = -5$}
+\end{aligned}
 \]</span></p>
 <div class="remember" title="Where the sign goes">
 <p><span class="math inline">\(-\frac{5}{12}\)</span> and <span class="math inline">\(\frac{-5}{12}\)</span> are the same number. Write the sign in front.</p>
 <p><span class="math inline">\(-2\tfrac{7}{9}\)</span> means the whole number <strong>and</strong> the fraction are negative.</p>
 </div>
 <div class="you-try" title="Subtract $\frac{2}{5} - \frac{3}{4}$">
-<p>Multiply the denominators: <span class="math inline">\(5 \times 4 = 20\)</span>.</p>
-<p>Rewrite, then subtract the numerators: <span class="math display">\[
-\frac{8}{20} - \frac{15}{20} = -\frac{7}{20}
+<p><span class="math display">\[
+\begin{aligned}
+\frac{2}{5} - \frac{3}{4}
+&amp;= \frac{2}{5}\times\frac{\color{red}4}{\color{red}4} - \frac{3}{4}\times\frac{\color{red}5}{\color{red}5} \stepnote{$5 \times 4 = 20$} \\
+&amp;= \frac{8}{20} - \frac{15}{20} \\
+&amp;= -\frac{7}{20} \stepnote{$8 - 15 = -7$}
+\end{aligned}
 \]</span></p>
 </div>
 <hr>
@@ -958,52 +983,50 @@ Multiples of <span class="math inline">\(4\)</span>: <span class="math inline">\
 <p>Why not add the whole numbers and then the fractions? Try it on <span class="math inline">\(6\tfrac{1}{4} - 3\tfrac{3}{8}\)</span>. You cannot take <span class="math inline">\(\frac{3}{8}\)</span> from <span class="math inline">\(\frac{1}{4}\)</span>, so you have to borrow from the <span class="math inline">\(6\)</span>.</p>
 <p>Turn them into <a href="../../glossary.html#glossary-improper-fraction" class="glossary-link" data-term="improper fraction" data-slug="improper-fraction" data-original-href="#glossary-improper-fraction">improper fraction</a>s first instead. Then there is no borrowing.</p>
 <p>To convert <span class="math inline">\(a\tfrac{b}{c}\)</span>, multiply <span class="math inline">\(a \times c\)</span>, add <span class="math inline">\(b\)</span>, and keep the denominator <span class="math inline">\(c\)</span>: <span class="math display">\[
-a\tfrac{b}{c} = \frac{a\times c + b}{c}
-\qquad\qquad
 2\tfrac{1}{3} = \frac{2 \times 3 + 1}{3} = \frac{7}{3}
 \]</span></p>
-<p><strong>Example 11:</strong> <span class="math inline">\(2\tfrac{1}{3} + 1\tfrac{5}{6}\)</span></p>
-<p>Convert each mixed number to an improper fraction: <span class="math display">\[
-2\tfrac{1}{3} = \frac{7}{3}
-\qquad\qquad
-1\tfrac{5}{6} = \frac{11}{6}
+<p><strong>Example 11:</strong> <span class="math inline">\(2\tfrac{1}{3} + 1\tfrac{5}{6}\)</span> <span class="math display">\[
+\begin{aligned}
+2\tfrac{1}{3} + 1\tfrac{5}{6}
+&amp;= \frac{7}{3} + \frac{11}{6} \stepnote{improper fractions} \\
+&amp;= \frac{7}{3}\times\frac{\color{red}6}{\color{red}6} + \frac{11}{6}\times\frac{\color{red}3}{\color{red}3} \stepnote{$3 \times 6 = 18$} \\
+&amp;= \frac{42}{18} + \frac{33}{18} \\
+&amp;= \frac{75}{18} \stepnote{add the numerators} \\
+&amp;= \frac{25}{6} \stepnote{simplify, GCF 3} \\
+&amp;= 4\tfrac{1}{6} \stepnote{$25 \div 6 = 4$ r $1$}
+\end{aligned}
 \]</span></p>
-<p>Multiply the denominators: <span class="math display">\[
-3 \times 6 = 18
-\]</span></p>
-<p>Rewrite and add: <span class="math display">\[
-\frac{42}{18} + \frac{33}{18} = \frac{75}{18} = \frac{25}{6}
-\]</span></p>
-<p>Convert back by dividing. <span class="math inline">\(25 \div 6 = 4\)</span> remainder <span class="math inline">\(1\)</span>: <span class="math display">\[
-\frac{25}{6} = 4\tfrac{1}{6}
-\]</span></p>
-<p><strong>Example 12:</strong> <span class="math inline">\(4\tfrac{1}{2} - 2\tfrac{3}{4}\)</span></p>
-<p>Convert each mixed number: <span class="math display">\[
-4\tfrac{1}{2} = \frac{9}{2}
-\qquad\qquad
-2\tfrac{3}{4} = \frac{11}{4}
-\]</span></p>
-<p>Multiply the denominators: <span class="math display">\[
-2 \times 4 = 8
-\]</span></p>
-<p>Rewrite, subtract, simplify, and convert back: <span class="math display">\[
-\frac{36}{8} - \frac{22}{8} = \frac{14}{8} = \frac{7}{4} = 1\tfrac{3}{4}
+<p><strong>Example 12:</strong> <span class="math inline">\(4\tfrac{1}{2} - 2\tfrac{3}{4}\)</span> <span class="math display">\[
+\begin{aligned}
+4\tfrac{1}{2} - 2\tfrac{3}{4}
+&amp;= \frac{9}{2} - \frac{11}{4} \stepnote{improper fractions} \\
+&amp;= \frac{9}{2}\times\frac{\color{red}4}{\color{red}4} - \frac{11}{4}\times\frac{\color{red}2}{\color{red}2} \stepnote{$2 \times 4 = 8$} \\
+&amp;= \frac{36}{8} - \frac{22}{8} \\
+&amp;= \frac{14}{8} \stepnote{subtract the numerators} \\
+&amp;= \frac{7}{4} \stepnote{simplify, GCF 2} \\
+&amp;= 1\tfrac{3}{4} \stepnote{$7 \div 4 = 1$ r $3$}
+\end{aligned}
 \]</span></p>
 <p><strong>Example 13:</strong> <span class="math inline">\(8 - 3\tfrac{4}{7}\)</span></p>
-<p>No denominator? No problem. Put a 1 underneath: <span class="math display">\[
-8 = \frac{8}{\color{red}1}
-\qquad\qquad
-3\tfrac{4}{7} = \frac{25}{7}
-\]</span></p>
-<p>Multiply the denominators: <span class="math display">\[
-1 \times 7 = 7
-\]</span></p>
-<p>Rewrite, subtract, and convert back: <span class="math display">\[
-\frac{56}{7} - \frac{25}{7} = \frac{31}{7} = 4\tfrac{3}{7}
+<p>No denominator? No problem. Put a 1 underneath. <span class="math display">\[
+\begin{aligned}
+8 - 3\tfrac{4}{7}
+&amp;= \frac{8}{\color{red}1} - \frac{25}{7} \stepnote{improper fractions} \\
+&amp;= \frac{8}{1}\times\frac{\color{red}7}{\color{red}7} - \frac{25}{7} \stepnote{$1 \times 7 = 7$} \\
+&amp;= \frac{56}{7} - \frac{25}{7} \\
+&amp;= \frac{31}{7} \stepnote{subtract the numerators} \\
+&amp;= 4\tfrac{3}{7} \stepnote{$31 \div 7 = 4$ r $3$}
+\end{aligned}
 \]</span></p>
 <div class="you-try" title="Subtract $5\tfrac{1}{2} - 2\tfrac{3}{5}$">
 <p><span class="math display">\[
-\frac{11}{2} - \frac{13}{5} = \frac{55}{10} - \frac{26}{10} = \frac{29}{10} = 2\tfrac{9}{10}
+\begin{aligned}
+5\tfrac{1}{2} - 2\tfrac{3}{5}
+&amp;= \frac{11}{2} - \frac{13}{5} \stepnote{improper fractions} \\
+&amp;= \frac{55}{10} - \frac{26}{10} \stepnote{$2 \times 5 = 10$} \\
+&amp;= \frac{29}{10} \stepnote{subtract the numerators} \\
+&amp;= 2\tfrac{9}{10} \stepnote{$29 \div 10 = 2$ r $9$}
+\end{aligned}
 \]</span></p>
 </div>
 </section>
