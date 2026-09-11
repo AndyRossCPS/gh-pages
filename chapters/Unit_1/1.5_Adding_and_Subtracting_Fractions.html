@@ -713,7 +713,7 @@ window.Quarto = {
 
 
 <p>In earlier lessons, you learned how to multiply and divide fractions. But many real-world problems, like combining ingredients, measuring distance, or tracking time, require <strong>adding and subtracting</strong> fractions instead.</p>
-<p>In this lesson, you’ll learn how to add and subtract fractions and mixed numbers. We will use <strong>one method</strong> for the denominators. It works every time, so you never have to stop and choose.</p>
+<p>In this lesson, you’ll learn how to add and subtract fractions and mixed numbers. You will see what a common denominator is, how to find the smallest one, and a faster way to get one that works every time.</p>
 <div class="objectives">
 <ul class="task-list">
 <li><label><input type="checkbox">I can add and subtract fractions with like denominators.</label></li>
@@ -722,7 +722,7 @@ window.Quarto = {
 </ul>
 </div>
 <div class="vocab">
-<p><a href="../../glossary.html#glossary-common-denominator" class="glossary-link" data-term="common denominator" data-original-href="#glossary-common-denominator" data-slug="common-denominator">common denominator</a>, <a href="../../glossary.html#glossary-denominator" class="glossary-link" data-term="denominator" data-original-href="#glossary-denominator" data-slug="denominator">denominator</a>, <a href="../../glossary.html#glossary-improper-fraction" class="glossary-link" data-term="improper fraction" data-original-href="#glossary-improper-fraction" data-slug="improper-fraction">improper fraction</a>, <a href="../../glossary.html#glossary-mixed-number" class="glossary-link" data-term="mixed number" data-original-href="#glossary-mixed-number" data-slug="mixed-number">mixed number</a>, <a href="../../glossary.html#glossary-numerator" class="glossary-link" data-term="numerator" data-original-href="#glossary-numerator" data-slug="numerator">numerator</a></p>
+<p><a href="../../glossary.html#glossary-common-denominator" class="glossary-link" data-term="common denominator" data-slug="common-denominator" data-original-href="#glossary-common-denominator">common denominator</a>, <a href="../../glossary.html#glossary-denominator" class="glossary-link" data-term="denominator" data-slug="denominator" data-original-href="#glossary-denominator">denominator</a>, <a href="../../glossary.html#glossary-improper-fraction" class="glossary-link" data-term="improper fraction" data-slug="improper-fraction" data-original-href="#glossary-improper-fraction">improper fraction</a>, <a href="../../glossary.html#glossary-mixed-number" class="glossary-link" data-term="mixed number" data-slug="mixed-number" data-original-href="#glossary-mixed-number">mixed number</a>, <a href="../../glossary.html#glossary-numerator" class="glossary-link" data-term="numerator" data-slug="numerator" data-original-href="#glossary-numerator">numerator</a></p>
 </div>
 <div class="guided-notes-link">
 <p><a href="../../guided_notes/Unit_1/1.5_Adding_and_Subtracting_Fractions.html" target="_blank">Printable Guided Notes for this lesson</a> - fill-in notes to print and write on.</p>
@@ -830,14 +830,23 @@ So we can’t just add <span class="math inline">\(\frac{1}{3} + \frac{1}{4}\)</
 <img src="../../images/Unit_1/Lesson_5/cheese_pizza_9of12.svg" class="img-fluid"></p>
 </div>
 </div>
-<p>Where did <span class="math inline">\(12\)</span> come from? Look at the two denominators: <span class="math display">\[
-3 \cdot 4 = 12
-\]</span></p>
-<p>That is the whole trick. <strong>Multiply the two denominators together.</strong></p>
+</section>
+<section id="the-smallest-common-denominator" class="level4">
+<h4 class="anchored" data-anchor-id="the-smallest-common-denominator">The Smallest Common Denominator</h4>
+<p>A <a href="../../glossary.html#glossary-common-denominator" class="glossary-link" data-term="common denominator" data-slug="common-denominator" data-original-href="#glossary-common-denominator">common denominator</a> is a number that <strong>both denominators divide into evenly</strong>.</p>
+<p>Where did <span class="math inline">\(12\)</span> come from? List the multiples of each denominator and look for the first number in both lists.</p>
+<p>Multiples of <span class="math inline">\(3\)</span>: <span class="math inline">\(3, 6, 9, \mathbf{12}, 15, \dots\)</span><br>
+Multiples of <span class="math inline">\(4\)</span>: <span class="math inline">\(4, 8, \mathbf{12}, 16, \dots\)</span></p>
+<p><span class="math inline">\(12\)</span> is the first number that appears in both. It is the <strong>smallest</strong> common denominator, and it is the one the pizza picture shows. Twelfths are the biggest pieces that still line up.</p>
 <hr>
 </section>
-<section id="one-method-that-always-works" class="level4">
-<h4 class="anchored" data-anchor-id="one-method-that-always-works">One Method That Always Works</h4>
+<section id="a-faster-way-to-get-one" class="level4">
+<h4 class="anchored" data-anchor-id="a-faster-way-to-get-one">A Faster Way to Get One</h4>
+<p>Listing multiples always works, and it tells you the smallest denominator. But it takes time. For denominators like <span class="math inline">\(12\)</span> and <span class="math inline">\(9\)</span>, you have to write a lot of numbers before the two lists share one.</p>
+<p>So here is the way we will use in this book. <strong>Multiply the two denominators.</strong></p>
+<p><span class="math display">\[
+3 \cdot 4 = 12
+\]</span></p>
 <p>To add or subtract two fractions with different denominators:</p>
 <ol type="1">
 <li><strong>Multiply the denominators.</strong> That product is your common denominator.</li>
@@ -849,11 +858,15 @@ So we can’t just add <span class="math inline">\(\frac{1}{3} + \frac{1}{4}\)</
 <p>In symbols: <span class="math display">\[
 \frac{a}{b} + \frac{c}{d}
 = \frac{a}{b}\cdot\frac{d}{d} + \frac{c}{d}\cdot\frac{b}{b}
-= \frac{a \cdot d}{b \cdot d} + \frac{c \cdot b}{d \cdot b}
+= \frac{a \cdot d}{b \cdot d} + \frac{c \cdot b}{b \cdot d}
 \]</span></p>
 <div class="remember" title="Why this always works">
 <p><span class="math inline">\(b \cdot d\)</span> is a multiple of <span class="math inline">\(b\)</span>. It is also a multiple of <span class="math inline">\(d\)</span>. So both denominators divide into it evenly, every time.</p>
-<p>You never have to hunt for a number. You already have one.</p>
+<p>You never have to list anything. You already have a common denominator.</p>
+</div>
+<div class="gotcha" title="It is not always the smallest one">
+<p>For <span class="math inline">\(\frac{1}{3}\)</span> and <span class="math inline">\(\frac{1}{4}\)</span>, multiplying gives <span class="math inline">\(12\)</span>, and <span class="math inline">\(12\)</span> is also the smallest. Those two agree here.</p>
+<p>They will not always agree. When the denominators share a factor, multiplying gives a bigger number than listing would. The answer still comes out right. You just simplify at the end.</p>
 </div>
 <div class="gotcha" title="Top and bottom, same number">
 <p>Multiplying by <span class="math inline">\(\frac{4}{4}\)</span> does not change the value of a fraction, because <span class="math inline">\(\frac{4}{4} = 1\)</span>.</p>
@@ -896,9 +909,13 @@ So we can’t just add <span class="math inline">\(\frac{1}{3} + \frac{1}{4}\)</
 <p>Now simplify. The GCF of <span class="math inline">\(20\)</span> and <span class="math inline">\(32\)</span> is <span class="math inline">\(4\)</span>: <span class="math display">\[
 \frac{20}{32} = \frac{20 \div 4}{32 \div 4} = \frac{5}{8}
 \]</span></p>
+<p>Here the two ways give different denominators. Listing multiples would have given <span class="math inline">\(8\)</span>, because <span class="math inline">\(8\)</span> is already a multiple of <span class="math inline">\(4\)</span>: <span class="math display">\[
+\frac{7}{8} - \frac{2}{8} = \frac{5}{8}
+\]</span></p>
+<p>Same answer, smaller numbers. Multiplying gave <span class="math inline">\(32\)</span> instead, so there was more to simplify at the end.</p>
 <div class="gotcha" title="The numbers get bigger. Simplify at the end.">
-<p>In Example 6 the denominators shared a factor, so <span class="math inline">\(32\)</span> was larger than it had to be. That made the numbers in the middle bigger.</p>
-<p>That is the trade. You do <strong>no</strong> thinking at the start, and a little simplifying at the end. An unsimplified answer is a wrong answer, so make simplifying the last step of every problem.</p>
+<p>That is the trade. You do <strong>no</strong> thinking at the start, and a little simplifying at the end.</p>
+<p>An unsimplified answer is a wrong answer, so make simplifying the last step of every problem.</p>
 </div>
 <hr>
 <p><strong>Example 7:</strong> <span class="math inline">\(\frac{5}{6} + \frac{7}{9}\)</span></p>
@@ -960,18 +977,24 @@ So we can’t just add <span class="math inline">\(\frac{1}{3} + \frac{1}{4}\)</
 \frac{115}{150} = \frac{23}{30}
 \]</span></p>
 </div>
-<div class="think" title="What happens when one denominator already divides into the other?">
-<p>Try <span class="math inline">\(\frac{1}{2} + \frac{1}{4}\)</span> with this method.</p>
-<p><span class="math inline">\(2 \cdot 4 = 8\)</span>, so you get <span class="math inline">\(\frac{4}{8} + \frac{2}{8} = \frac{6}{8} = \frac{3}{4}\)</span>.</p>
-<p>You could have used <span class="math inline">\(4\)</span> and gotten <span class="math inline">\(\frac{3}{4}\)</span> right away. Both answers are the same. The method still works, it just asked you to simplify at the end.</p>
+<div class="think" title="When do the two ways agree?">
+<p>Look back at two of the examples.</p>
+<ul>
+<li>Example 4: <span class="math inline">\(\frac{1}{3} + \frac{1}{4}\)</span>. Multiplying gave <span class="math inline">\(12\)</span>. The smallest is also <span class="math inline">\(12\)</span>. They agree.</li>
+<li>Example 6: <span class="math inline">\(\frac{7}{8} - \frac{1}{4}\)</span>. Multiplying gave <span class="math inline">\(32\)</span>. The smallest is <span class="math inline">\(8\)</span>. They do not agree.</li>
+</ul>
+<p>What is different about <span class="math inline">\(3\)</span> and <span class="math inline">\(4\)</span> compared to <span class="math inline">\(8\)</span> and <span class="math inline">\(4\)</span>?</p>
+<p><strong>Answer:</strong> <span class="math inline">\(3\)</span> and <span class="math inline">\(4\)</span> share no common factor. <span class="math inline">\(8\)</span> and <span class="math inline">\(4\)</span> share a factor of <span class="math inline">\(4\)</span>.</p>
+<p>When two denominators share no factor, multiplying them gives the smallest common denominator. When they do share a factor, multiplying gives a bigger number, and you simplify at the end.</p>
 </div>
 <hr>
 </section>
 </section>
 <section id="adding-subtracting-mixed-numbers" class="level3">
 <h3 class="anchored" data-anchor-id="adding-subtracting-mixed-numbers">1.5.3 - Adding &amp; Subtracting Mixed Numbers</h3>
-<p>A <a href="../../glossary.html#glossary-mixed-number" class="glossary-link" data-term="mixed number" data-original-href="#glossary-mixed-number" data-slug="mixed-number">mixed number</a> has a whole number and a fraction, like <span class="math inline">\(2\tfrac{1}{3}\)</span>.</p>
-<p>To add or subtract mixed numbers:</p>
+<p>A <a href="../../glossary.html#glossary-mixed-number" class="glossary-link" data-term="mixed number" data-slug="mixed-number" data-original-href="#glossary-mixed-number">mixed number</a> has a whole number and a fraction, like <span class="math inline">\(2\tfrac{1}{3}\)</span>.</p>
+<p>You might try adding the whole numbers, then adding the fractions. That works sometimes. It breaks on a problem like <span class="math inline">\(6\tfrac{1}{4} - 3\tfrac{3}{8}\)</span>, because <span class="math inline">\(\frac{1}{4}\)</span> is smaller than <span class="math inline">\(\frac{3}{8}\)</span> and you have to borrow from the <span class="math inline">\(6\)</span>.</p>
+<p>So we use one method here too. Turn the mixed numbers into fractions first. Then there is no borrowing to do.</p>
 <ol type="1">
 <li>Convert each mixed number to an improper fraction.<br>
 </li>
